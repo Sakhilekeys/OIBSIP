@@ -25,3 +25,15 @@ An Exploratory Data Analysis (EDA) project tracking the economic impacts on labo
 ### Technologies Used:
 * **Language:** Python 3.14
 * **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+---
+
+## Task 3: Email Spam Detection
+A machine learning and Natural Language Processing (NLP) project built to classify text communications into legitimate messages (`Ham`) or unsolicited advertisements (`Spam`).
+
+### Implementation Details:
+* **Preprocessing & Feature Extraction:** Utilized a `TfidfVectorizer` (Term Frequency-Inverse Document Frequency) to strip English stop-words and convert unstructured raw text strings into structured, high-dimensional numerical feature vectors.
+* **Model Used:** Trained a `MultinomialNB` (Multinomial Naive Bayes) classification network, which uses probabilistic tracking ideally suited for text word-count distributions.
+* **Workflow:** Built a standalone standalone pipeline handling dataset mapping, feature extraction, evaluation splits, and real-time inference handling.
+
+### Outcome:
+Successfully verified the pipeline with custom test inputs, tracking high-precision tracking metrics and accurately separating regular context phrases from standard scam patterns in the console.
