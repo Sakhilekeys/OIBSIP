@@ -37,3 +37,15 @@ A machine learning and Natural Language Processing (NLP) project built to classi
 
 ### Outcome:
 Successfully verified the pipeline with custom test inputs, tracking high-precision tracking metrics and accurately separating regular context phrases from standard scam patterns in the console.
+---
+
+## Task 3: Car Price Prediction
+A machine learning regression project designed to estimate continuous vehicle market valuations based on physical and manufacturing attributes.
+
+### Implementation Details:
+* **Preprocessing Pipeline:** Integrated a `ColumnTransformer` utilizing `OneHotEncoder` to process categorical strings (Brand, Fuel Type) while leaving continuous variables untouched.
+* **Model Selection:** Deployed a `RandomForestRegressor` ensemble model to handle nonlinear feature configurations and minimize pricing variance.
+* **Workflow:** Bundled data multi-transformation and model training stages into a unified Scikit-Learn `Pipeline` object to securely manage inference splits.
+
+### Outcome:
+Successfully verified continuous value predictions on custom out-of-sample feature data frames directly inside the runtime console environment.
