@@ -27,7 +27,7 @@ An Exploratory Data Analysis (EDA) project tracking the economic impacts on labo
 * **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
 ---
 
-## Task 3: Email Spam Detection
+## Task 4: Email Spam Detection
 A machine learning and Natural Language Processing (NLP) project built to classify text communications into legitimate messages (`Ham`) or unsolicited advertisements (`Spam`).
 
 ### Implementation Details:
