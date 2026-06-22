@@ -49,3 +49,15 @@ A machine learning regression project designed to estimate continuous vehicle ma
 
 ### Outcome:
 Successfully verified continuous value predictions on custom out-of-sample feature data frames directly inside the runtime console environment.
+---
+
+## Task 5: Sales Prediction Using Python
+A machine learning multi-variable regression project designed to forecast product sales revenue yields based on advertising expenditures across TV, Radio, and Newspaper mediums.
+
+### Implementation Details:
+* **Feature Selection:** Supervised modeling leveraging multiple continuous independent parameters (`TV`, `Radio`, `Newspaper`) against a single target metrics column (`Sales`).
+* **Algorithm Choice:** Implemented an optimized `LinearRegression` configuration to track coefficient trends and isolate specific feature weights.
+* **Workflow Evaluation:** Evaluated structural target variances using standard regression indicators, analyzing performance scores to ensure production stability.
+
+### Outcome:
+Successfully computed real-time product revenue estimations from custom cross-channel budget arrays directly inside the workspace command line interface.
